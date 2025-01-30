@@ -80,3 +80,40 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px 80px;
+}
+
+.info-images ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.info-images li {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+}
+
+.info-image-box {
+    border: #3882F6 solid 5px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    margin-bottom: 60px;
+}
+)
