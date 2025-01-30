@@ -7,10 +7,15 @@ body {
 header {
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    padding: 20px 80px;
+}
+
+.header-container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px;
-    margin: 0 auto;
+    width: 800px; /* Limits content width */
 }
 
 .header-logo {
