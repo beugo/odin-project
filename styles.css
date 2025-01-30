@@ -125,3 +125,29 @@ header {
     width: 150px;
     height: 150px;
 }
+
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    width: 800px;
+}
